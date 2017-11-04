@@ -7,8 +7,8 @@ android:
     - tools
     - platform-tools
     # - build-tools-25.0.2
-    # - build-tools-23.4.0
-    # - android-23
+    - build-tools-23.4.0
+    - android-23
     # - sys-img-armeabi-v7a-android-22
     # - extra-google-google_play_services
     # - extra-google-m2repository
@@ -29,7 +29,7 @@ android:
     - 'android-sdk-preview-license-52d11cd2'
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
-    - '.+'
+    - '*'
 
 before_install:
   - mkdir "$ANDROID_HOME/licenses" || true
