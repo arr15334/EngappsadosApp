@@ -25,7 +25,7 @@ android:
     - com.squareup.picasso:picasso:2.5.2
     #- com.android.support:design:23.4.0
     - junit:junit:4.12
-    # - sys-img-armeabi-v7a-android-17
+    #- sys-img-armeabi-v7a-android-17
   licenses:
     - 'android-sdk-preview-license-52d11cd2'
     - 'android-sdk-license-.+'
@@ -45,7 +45,7 @@ before_install:
   # - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
 
 before_script:
-  - echo no | android create avd --force -n test -t android-23
+  - echo no | android create avd --force -n test -t android-23 --abi armeabi-v7a
   - emulator -avd test -no-audio -no-window &
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
