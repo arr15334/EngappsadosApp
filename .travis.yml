@@ -26,6 +26,9 @@ android:
     #- com.android.support:design:23.4.0
     - junit:junit:4.12
     #- sys-img-armeabi-v7a-android-17
+    - sys-img-armeabi-v7a-google_apis-23
+
+
   licenses:
     - 'android-sdk-preview-license-52d11cd2'
     - 'android-sdk-license-.+'
