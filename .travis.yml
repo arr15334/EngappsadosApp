@@ -11,23 +11,23 @@ android:
     - build-tools-23.4.0
     - android-23
     - android-22
-    - sys-img-armeabi-v7a-android-23
-    # - extra-google-google_play_services
-    # - extra-google-m2repository
-    # - extra-android-m2repository
-    # - addon-google_apis-google-19
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-19
     - com.google.firebase:firebase-auth:11.0.2
     - com.google.android.gms:play-services-auth:11.0.2
     - com.google.firebase:firebase-core:11.0.2
     - com.google.firebase:firebase-database:11.0.2
-    #- com.android.support:appcompat-v7:23.4.0
+    - com.android.support:appcompat-v7:23.4.0
     - com.android.support.constraint:constraint-layout:1.0.2
-    # - org.jsoup:jsoup:1.10.3
+    - org.jsoup:jsoup:1.10.3
     - com.squareup.picasso:picasso:2.5.2
-    #- com.android.support:design:23.4.0
+    - com.android.support:design:23.4.0
     - junit:junit:4.12
-    #- sys-img-armeabi-v7a-android-17
-    - sys-img-armeabi-v7a-android-22
+    - sys-img-armeabi-v7a-android-17
+    - sys-img-armeabi-v7a-android-23
+    - sys-img-armeabi-v7a-android-24
     - sys-img-armeabi-v7a-google_apis-23
 
 
